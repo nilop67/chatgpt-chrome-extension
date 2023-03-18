@@ -1,0 +1,68 @@
+.copperfield-setting-container {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.copperfield-setting-logo-view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.copperfield-setting-logo-view h1 {
+    color: #dc9af1;
+}
+
+.copperfield-introduction-view {
+    padding: 20px;
+}
+
+.copperfield-introduction-view h2 {
+    color: #7f5af9;
+}
+
+.copperfield-openai-input-view {
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copperfield-openai-input-view h3 {
+    color: #47affc;
+}
+
+.copperfield-openai-input {
+    padding: 8px;
+    flex: 1;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.copperfield-openai-input:focus {
+    outline: #47affc;
+    border-color: #47affc;
+}
+
+.copperfield-setting-save-button {
+    font-size: 20px;
+    background-color: #47affc;
+    border-color: #47affc;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copperfield-openai-input-error {
+    color: red;
+    font-size: 18px;
+}
+
+.copperfield-openai-setting-view {
+    display: flex;
+    gap: 20px;
+}

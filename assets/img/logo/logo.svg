@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <radialGradient cx="13.8785416%" cy="8.49105172%" fx="13.8785416%" fy="8.49105172%" r="104.70127%" id="radialGradient-1">
+            <stop stop-color="#00CEFB" offset="0%"></stop>
+            <stop stop-color="#466DFF" offset="40.7994918%"></stop>
+            <stop stop-color="#B548F7" offset="68.8895698%"></stop>
+            <stop stop-color="#DB4AEB" offset="87.5043438%"></stop>
+            <stop stop-color="#FF5BD5" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="62" cy="62" r="62"></circle>
+        <filter x="-48.8%" y="-48.8%" width="197.5%" height="197.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="15.0186335" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-48.8%" y="-48.8%" width="197.5%" height="197.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="15.0186335" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-48.8%" y="-48.8%" width="197.5%" height="197.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="15.0186335" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="73.6665413%" y1="5.8170831%" x2="18.9746686%" y2="88.8972951%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" stop-opacity="0.32" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.08" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Copperfield--Dashboard-Search-004" transform="translate(-302.000000, -150.000000)">
+            <g id="Group-3" transform="translate(302.000000, 150.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                <circle id="Oval" fill="#01D3F9" filter="url(#filter-4)" mask="url(#mask-3)" cx="19.2546584" cy="15.7888199" r="46.2111801"></circle>
+                <circle id="Oval" fill="#FD56D7" filter="url(#filter-5)" mask="url(#mask-3)" cx="65.4658385" cy="123.614907" r="46.2111801"></circle>
+                <circle id="Oval" fill="#605FFE" filter="url(#filter-6)" mask="url(#mask-3)" cx="96.2732919" cy="38.8944099" r="46.2111801"></circle>
+                <circle id="Oval" fill-opacity="0.24" fill="#FFFFFF" mask="url(#mask-3)" cx="86.2608696" cy="39.6645963" r="13.863354"></circle>
+                <circle id="Oval" fill="url(#linearGradient-7)" mask="url(#mask-3)" cx="50.8322981" cy="75.0931677" r="51.6024845"></circle>
+                <circle id="Oval" fill="url(#linearGradient-7)" mask="url(#mask-3)" cx="33.8881988" cy="92.0372671" r="34.6583851"></circle>
+                <circle id="Oval" fill="url(#linearGradient-7)" mask="url(#mask-3)" cx="19.6397516" cy="106.285714" r="20.4099379"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

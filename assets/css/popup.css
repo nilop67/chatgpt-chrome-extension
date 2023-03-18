@@ -1,0 +1,227 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.copperfield-popup-container {
+    padding: 20px;
+    width: 370px;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.copperfield-popup-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copperfield-popup-header-icon {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.copperfield-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.copperfield-popup-header-title {
+    color: #0F172B;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.29px;
+    line-height: 20px;
+}
+
+.copperfield-popup-header-version {
+    display: flex;
+    gap: 4px;
+}
+
+.copperfield-update {
+    cursor: pointer;
+}
+
+.copperfield-version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    width: 46px;
+    border-radius: 4px;
+    background-color: rgba(216, 216, 216, 0.4);
+
+    font-size: 12px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #3C4043;
+}
+
+.copperfield-popup-setting {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Enter your API key */
+
+.copperfield-popup-save-key {
+    width: 100%;
+}
+
+.copperfield-popup-key {
+    display: flex;
+    gap: 6px;
+}
+
+.copperfield-enterkey-text {
+    height: 28px;
+    color: #0F172B;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+}
+
+.copperfield-key {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #C5C5D2;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.copperfield-key:disabled {
+    background-color: #F0F3F4;
+}
+.copperfield-save-key-button {
+    padding: 0px 9px;
+    color: white;
+    background-color: #0d3d7a;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #0D3D7A;
+    cursor: pointer;
+}
+
+.copperfield-key-error-msg {
+    display: none;
+    line-height: 20px;
+}
+
+.copperfield-key-error-text {
+    color: red;
+}
+
+/* ask */
+
+.copperfield-popup-save-link {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    height: 19px;
+}
+
+.copperfield-api-key-gen-ask {
+    width: 14px;
+    height: 14px;
+}
+
+.copperfield-api-key-ask-text {
+    color: #334255;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    letter-spacing: 0.43px;
+    line-height: 15px;
+}
+
+/* shortcut setting */
+
+.copperfield-shortcut-setting {
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+    height: 28px;
+}
+
+.copperfield-shortcut-label {
+    color: #0F172B;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+}
+
+.copperfield-shortcut-key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    width: 62px;
+    border: 1px solid #DBDCDD;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+.copperfield-shortcut-text {
+    color: #0D3D7A;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.copperfield-save-shortcut-button {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+    text-align: center;
+
+    width: 40px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #0D3D7A;
+}
+
+.copperfield-shortcut-setting-action {
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+}
+
+/* disable setting */
+
+.copperfield-disable-setting {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 28px;
+}
+
+.copperfield-disable-toggle-icon {
+    width: 20px;
+    height: 12px;
+}
+
+.copperfield-disable-text {
+    color: #0F172B;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.25px;
+    line-height: 18px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mic</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Copperfield-Chrome-Extension-003" transform="translate(-1122.000000, -195.000000)">
+            <g id="Search-Bar" transform="translate(340.000000, 177.000000)">
+                <g id="mic" transform="translate(782.000000, 18.000000)">
+                    <path d="M12,15 C13.655,15 14.99,13.655 14.99,12 L15,6 C15,4.34 13.66,3 12,3 C10.345,3 9,4.34 9,6 L9,12 C9,13.655 10.345,15 12,15 Z M17.3,12 C17.3,15 14.765,17.1 12,17.1 C9.24,17.1 6.7,15 6.7,12 L5,12 C5,15.415 7.72,18.235 11,18.72 L11,22 L13,22 L13,18.72 C16.28,18.235 19,15.415 19,12 L17.3,12 Z" id="Shape" fill="#94A4B8" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,246 @@
+.copperfield-content-view::-webkit-scrollbar {
+    width: 3px;
+    background-color: white;
+}
+
+.copperfield-content-view::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.copperfield-content-view::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+div#copperfield {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 9999;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(59, 96, 143, 0.8), rgba(59, 96, 143, 0.8));
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
+div.copperfield-container {
+    width: 70%;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+}
+
+div.copperfield-close-botton-view {
+    position: absolute;
+    top: 14px;
+    right: -56px;
+}
+
+.copperfield-container-close {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.copperfield-main-view {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 50px);
+}
+
+.copperfield-main-view .copperfield-search-view {
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 34px 74px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 15px;
+    gap: 10px;
+    ;
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-search-icon {
+    cursor: pointer;
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-record-icon {
+    cursor: pointer;
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    overflow-y: auto;
+    resize: none;
+    color: #0F172B;
+    background-color: inherit;
+
+    height: auto;
+    box-sizing: border-box;
+    font-size: 17px;
+    letter-spacing: 0.13px;
+    line-height: 22px;
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-search-input::-webkit-scrollbar {
+    width: 3px;
+    background-color: white;
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-search-input::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-search-input::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.48);
+}
+
+.copperfield-main-view .copperfield-search-view .copperfield-search-input:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.copperfield-main-view .copperfield-search-result-view {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8px;
+    border: 0.5px solid rgba(151, 151, 151, 0.64);
+    border-radius: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.copperfield-main-view .copperfield-search-result-view .copperfield-content-view {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 8px;
+    max-height: calc(100vh - 357px);
+    overflow-y: auto;
+    align-items: center;
+}
+
+/* chat view */
+.copperfield-chat-view {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #F7F7F8;
+    display: flex;
+    gap: 16px;
+    padding: 16px 16px 32px;
+}
+
+pre.copperfield-result-content {
+    display: flex;
+    flex: 1;
+    margin-top: 8px;
+    overflow: auto;
+    white-space: pre-wrap;
+    color: #384152;
+    font-family: "Source Sans Pro";
+    font-size: 17px;
+    letter-spacing: 0.13px;
+    line-height: 22px;
+}
+
+.copperfield-button-view {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    border-top: 1px solid #dbdcdd;
+    background-color: #F9F9F9;
+}
+
+.copperfield-insert-button-view {
+    display: flex;
+    gap: 10px;
+}
+
+img:not([alt]) {
+    filter: none !important;
+}
+
+button.copperfield-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 9px 16px;
+    min-height: 38px;
+    max-height: 38px;
+    cursor: pointer;
+}
+
+.copperfield-button.clip-copy-button {
+    color: #0D3D7A;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #DBDCDD;
+    background-color: #FFFFFF;
+}
+
+.copperfield-button.copperfield-disabled-button {
+    color: #A5A5B3;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+    line-height: 19px;
+    text-align: center;
+
+    background-color: #DFE1E5;
+}
+
+.copperfield-button.regenerate-button {
+    color: #384152;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    line-height: 18px;
+    border: 1px solid #E5E5E5;
+    background-color: #FFFFFF;
+}
+
+.copperfield-toggle-button-image {
+    width: 16px;
+}
+
+.copperfield-button.exit-button {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.45px;
+    line-height: 19px;
+    text-align: center;
+    background-color: #0D3D7A;
+}

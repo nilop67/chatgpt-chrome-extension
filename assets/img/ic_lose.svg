@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_lose</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Copperfield-Chrome-Extension-003" transform="translate(-1384.000000, -92.000000)" fill-rule="nonzero">
+            <g id="ic_lose" transform="translate(1384.000000, 92.000000)">
+                <path d="M16,0 C7.2,0 0,7.2 0,16 C0,24.8 7.2,32 16,32 C24.8,32 32,24.8 32,16 C32,7.2 24.8,0 16,0 Z" id="Shape" fill-opacity="0.64" fill="#000000"></path>
+                <path d="M21.92,19.68 C22.56,20.32 22.56,21.28 21.92,21.92 C21.28,22.56 20.32,22.56 19.68,21.92 L16,18.24 L12.32,21.92 C11.68,22.56 10.72,22.56 10.08,21.92 C9.44,21.28 9.44,20.32 10.08,19.68 L13.76,16 L10.08,12.32 C9.44,11.68 9.44,10.72 10.08,10.08 C10.72,9.44 11.68,9.44 12.32,10.08 L16,13.76 L19.68,10.08 C20.32,9.44 21.28,9.44 21.92,10.08 C22.56,10.72 22.56,11.68 21.92,12.32 L18.24,16 L21.92,19.68 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+name: package
+on:
+  push:
+    branches:
+      - main
+      - staging
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Bump version and create release
+        uses: rymndhng/release-on-push-action@master
+        if: ${{ github.ref == 'refs/heads/staging' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_prefix: ""
+          bump_version_scheme: patch
+
+      - name: Bump version and create release
+        uses: rymndhng/release-on-push-action@master
+        if: ${{ github.ref == 'refs/heads/main' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_prefix: ""
+          bump_version_scheme: minor
+        
+      - name: Zip repository
+        run: |
+          zip -r copperfield-browser-extension.zip .
+          
+      - name: Upload to Chrome web store
+        uses: mnao305/chrome-extension-upload@v4.0.1
+        with:
+          file-path: copperfield-browser-extension.zip
+          extension-id: fbgnncmhelgblbeagmobgffcebnfpiom
+          client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
+          client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          refresh-token: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          publish: false

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sign</title>
+    <defs>
+        <radialGradient cx="13.8785416%" cy="8.49105172%" fx="13.8785416%" fy="8.49105172%" r="104.70127%" id="radialGradient-1">
+            <stop stop-color="#00CEFB" offset="0%"></stop>
+            <stop stop-color="#466DFF" offset="40.7994918%"></stop>
+            <stop stop-color="#B548F7" offset="68.8895698%"></stop>
+            <stop stop-color="#DB4AEB" offset="87.5043438%"></stop>
+            <stop stop-color="#FF5BD5" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="7" cy="7" r="7"></circle>
+        <filter x="-48.7%" y="-48.7%" width="197.5%" height="197.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.69565217" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-48.7%" y="-48.7%" width="197.5%" height="197.5%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.69565217" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-48.7%" y="-48.7%" width="197.5%" height="197.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.69565217" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="73.6665413%" y1="5.8170831%" x2="18.9746686%" y2="88.8972951%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" stop-opacity="0.32" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.08" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.500976562">
+        <g id="Copperfield-Chrome-Extension-003" transform="translate(-1273.000000, -90.000000)">
+            <g id="Google-Chrome/macOS/Light" transform="translate(80.000000, 37.000000)">
+                <g id="sign" transform="translate(1193.000000, 53.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                    <circle id="Oval" fill="#01D3F9" filter="url(#filter-4)" mask="url(#mask-3)" cx="2.17391304" cy="1.7826087" r="5.2173913"></circle>
+                    <circle id="Oval" fill="#FD56D7" filter="url(#filter-5)" mask="url(#mask-3)" cx="7.39130435" cy="13.9565217" r="5.2173913"></circle>
+                    <circle id="Oval" fill="#605FFE" filter="url(#filter-6)" mask="url(#mask-3)" cx="10.8695652" cy="4.39130435" r="5.2173913"></circle>
+                    <circle id="Oval" fill-opacity="0.24" fill="#FFFFFF" mask="url(#mask-3)" cx="9.73913043" cy="4.47826087" r="1.56521739"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-7)" mask="url(#mask-3)" cx="5.73913043" cy="8.47826087" r="5.82608696"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-7)" mask="url(#mask-3)" cx="3.82608696" cy="10.3913043" r="3.91304348"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-7)" mask="url(#mask-3)" cx="2.2173913" cy="12" r="2.30434783"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

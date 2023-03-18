@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/popup.css">
+    <script src="../assets/library/jquery/jquery-1.12.3.min.js"></script>
+    <title>Copperfield</title>
+</head>
+
+<body>
+    <div class="copperfield-popup-container">
+        <div class="copperfield-popup-header">
+            <div class="copperfield-popup-header-icon">
+                <img src="../assets/img/logo/logo-48.png" class="copperfield-logo">
+                <div class="copperfield-popup-header-title">Copperfield AI</div>
+            </div>
+            <div class="copperfield-popup-header-version">
+                <img src="../assets/img/update.png" class="copperfield-update">
+                <span class="copperfield-version">v 0.6.1</span>
+            </div>
+        </div>
+        <div class="copperfield-popup-setting">
+            <div class="copperfield-popup-save-key">
+                <div class="copperfield-enterkey-text">Enter your API key</div>
+                <div class="copperfield-popup-key">
+                    <input type="password" class="copperfield-key" placeholder="Enter your api key...">
+                    <button class="copperfield-save-key-button">Save Key</button>
+                </div>
+                <div class="copperfield-key-error-msg">
+                    <span class="copperfield-key-error-text">Please enter your API key.</span>
+                </div>
+            </div>
+
+            <div class="copperfield-popup-save-link">
+                <img src="../assets/img/16.png" class="copperfield-api-key-gen-ask">
+                <a href="https://applied.sc/where-do-i-get-my-api-key" target="_blank"
+                    class="copperfield-api-key-ask-text">Where can I generate my API key?</a>
+            </div>
+
+            <div class="copperfield-shortcut-setting">
+                <div class="copperfield-shortcut-label">Press keyboard shortcuts:</div>
+                <div class="copperfield-shortcut-key">
+                    <img src="../assets/img/command.png" width="16" height="16">
+                    <span class="copperfield-shortcut-text"> + M</span>
+                </div>
+                <button class="copperfield-save-shortcut-button">Ok</button>
+            </div>
+
+            <div class="copperfield-disable-setting">
+                <img class="copperfield-disable-toggle-icon" src="../assets/img/toggle_on.png">
+                <div class="copperfield-disable-text">Disable Copperfield on this website (permanently)</div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/popup.js"></script>
+</body>
+
+</html>
